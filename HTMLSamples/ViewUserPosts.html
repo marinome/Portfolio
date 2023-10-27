@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>View User Posts</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+    <body>
+        <br> Search for Post by User: <br><br>
+        <form action="ViewUserPosts.php" method="post">
+            <label for="user_id">Username:</label>
+            <select name="user_id" id="user_id">
+                <?php
+                    
+                    $mysqli = new mysqli("mysql.eecs.ku.edu", "m183m438", "oogh3Ahx", "m183m438");
+                    if($mysqli->connect_errno){
+                        printf("Connect failed: %s\n", $mysqli->connect_error); exit();
+                    }
+                    $query = "SELECT user_id FROM Users;";
+                    if($result = $mysqli->query(query)){
+                        while($row = $result->fetch_assoc()){
+                            echo "<option value='" . $row["user_id"] . "'>" . $row["user_id"] . "</option>";
+                        }
+                        $result->free();
+                    }
+                    $mysqli->close();
+                ?>
+            </select>
+            <input type ="submit">
+        </form>
+    </body>
+</html>

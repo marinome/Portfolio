@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+}
+h2{
+    background-color:#fbffc2
+}
+h2.myname{
+    background-color:yellow;
+    color:black;
+}
+body{
+    font-family: Comic Sans MS;
+    background-color: #99d3ff;
+    text-align: left;
+    background-image: url("doughboywallpaper.jpg");
+    background-size: 100%
+    background-repeat: no-repeat;
+}
+p{
+    background-color:#c2e4ff
+    font-size: 14pt;
+    color: black;
+}
+a{
+    background-color:yellow;
+    color:blue;
+}
+a:hover{
+    background-color:#fbffc2;
+}

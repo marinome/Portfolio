@@ -1,0 +1,59 @@
+header{
+    text-align: center;
+}
+body{
+    font-family: Comic Sans MS;
+    background-color:lightgray;
+    text-align: left;
+    background-size: 100%
+    background-repeat: no-repeat;
+}
+p{
+    background-color:#c2e4ff
+    text-align: left;
+    text-indent: 25px;
+    font-size: 14pt;
+    color: black;
+}
+l1{
+    text-indent: 25px;
+    padding-left: 40px;
+}
+l2{
+    padding-left: 40px;
+}
+l3{
+    padding-left: 40px;
+}
+input.reddd{
+    font-family: Comic Sans MS;
+    background-color:pink;
+    border-color:red;
+}
+input.blueee{
+    font-family: Comic Sans MS;
+    background-color:lightblue;
+    border-color:blue;
+}
+input.greennn{
+    font-family: Comic Sans MS;
+    background-color:lightgreen;
+    border-color:green;
+}
+input.widthhh{
+    font-family: Comic Sans MS;
+    background-color:lightyellow;
+    border-color:yellow;
+}
+button{
+    background-color:white;
+    border-color: black;
+    color:black;
+    font-family: Comic Sans MS;
+    font-size: 12pt;
+    margin-left: 40px;
+}
+button:hover{
+    background-color:gray;
+}
+
