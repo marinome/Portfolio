@@ -1,4 +1,4 @@
-<style> <?php include '../style.css'; ?> </style>
+<style> <?php include '../homestyle.css'; ?> </style>
 <?php
     if($_POST["content"] == ""){
         echo "Not saved. Post has no text"; exit();
