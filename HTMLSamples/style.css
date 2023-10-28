@@ -21,7 +21,13 @@ select{
 button{
     font-family: Comic Sans MS;
     background-color: black;
+    border-color: 1px solid white;
     color: white;
+}
+input{
+    font-family: Comic Sans MS;
+    background-color:white;
+    border-color:black;
 }
 table{
     border: 1px solid white;
